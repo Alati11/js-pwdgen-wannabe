@@ -26,17 +26,20 @@ let userNumber
 // assegna valore //
 userNumber = ('20');
 userNumber = (20 + 1);
+
+// let numberRandom = Math.floor(Math.random()*100);
+
 console.log(userNumber);
 
 // - Concatenare nome, cognome, colore e numero //
 let userPassword = userName + userSurname + userColor + userNumber;
 console.log(userPassword);
 
-//   - recuperare con js l'elementi del dom con id = 'password'
+//   - recuperare con js l'elementi del dom con id = 'userPassword'
 const messageDomElement = document.getElementById('userPassword');
 console.dir(messageDomElement);
 
-// - Modificare l'innerHTML del h1 con il valore della variabile password //
+// - Modificare l'innerHTML del h1 con il valore della variabile userPassword //
 messageDomElement.innerHTML = userPassword;
 
 
