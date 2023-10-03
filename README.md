@@ -9,6 +9,8 @@
  - Chiedi il colore preferito
     - dichiara una variabile
     - assegnare alla variabile il valore restituito da un prompt
-
- - Scrivi sulla pagina il risultato della concatenazione:
-    - modificare l'innerHTML del h1 con il valore della variabile message
+ - Creare un numero da associare 
+    - dichiara una variabile
+    - assegna valore
+ - Concatenare nome, cognome, colore e numero 
+- Modificare l'innerHTML del h1 con il valore della variabile password
