@@ -24,13 +24,19 @@ console.log(userColor);
 // - Creare un numero da associare //
 let userNumber
 // assegna valore //
-userNumber = ('20');
-userNumber = (20 + 1);
+userNumber = 21;
 
-// let numberRandom = Math.floor(Math.random()*100);
+// genera numero random //
+// function getRandomInt(max) {
+//     return Math.floor(Math.random() * max);
+//   }
+// console.log(getRandomInt(7));
 
-console.log(userNumber);
-
+// function casuale() {
+//     num = Math.round(Math.random() * 100);
+//     document.getElementById("casuale").innerHTML ="Numero casuale " + num;
+// }
+  
 // - Concatenare nome, cognome, colore e numero //
 let userPassword = userName + userSurname + userColor + userNumber;
 console.log(userPassword);

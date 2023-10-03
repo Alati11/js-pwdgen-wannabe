@@ -13,4 +13,4 @@
     - dichiara una variabile
     - assegna valore
  - Concatenare nome, cognome, colore e numero 
-- Modificare l'innerHTML del h1 con il valore della variabile password
+- Modificare l'innerHTML del h1 con il valore della variabile UserPassword
