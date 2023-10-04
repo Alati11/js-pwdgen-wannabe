@@ -27,16 +27,11 @@ let userNumber
 userNumber = 21;
 
 // genera numero random //
-// function getRandomInt(max) {
-//     return Math.floor(Math.random() * max);
-//   }
-// console.log(getRandomInt(7));
+// let num = Math.random() * 100;
+// userNumber = Math.floor(userNumber);
+// userNumber = userNumber + ''
 
-// function casuale() {
-//     num = Math.round(Math.random() * 100);
-//     document.getElementById("casuale").innerHTML ="Numero casuale " + num;
-// }
-  
+
 // - Concatenare nome, cognome, colore e numero //
 let userPassword = userName + userSurname + userColor + userNumber;
 console.log(userPassword);
